@@ -1,0 +1,127 @@
+.flex-box-center {
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-base {
+    font-family: Meiryo, Meiryo UI !important;
+    font-size: 14px !important;
+    color: #333333 !important;
+}
+
+.text-main {
+    color: #123049 !important;
+}
+
+.text-accent {
+    color: #00a99d !important;
+}
+
+.text-blur {
+    color: #6d6d6d !important;
+}
+
+.bg-main {
+    background-color: #123049 !important;
+    color: #ffffff !important;
+}
+
+.bg-accent {
+    background-color: #00a99d !important;
+    color: #ffffff !important;
+}
+
+.bg-base {
+    background-color: #e7e9ec !important;
+}
+
+.bg-box {
+    background-color: #ffffff !important;
+}
+
+table.border-table {
+    border-top: 1px solid #c8c8c8 !important;
+    border-left: 1px solid #c8c8c8 !important;
+}
+
+table.border-table tr>th, table.border-table tr>td {
+    border-right: 1px solid #c8c8c8 !important;
+    border-bottom: 1px solid #c8c8c8 !important;
+}
+
+table.border-table.no-outline {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+table.border-table.no-outline tr>th:last-child, table.border-table.no-outline tr>td:last-child {
+    border-right: none !important;
+}
+
+table.border-table.no-outline tr:last-child>td {
+    border-bottom: none !important;
+}
+
+.dividing-line {
+    height: 1px;
+    background-color: #c8c8c8 !important;
+}
+
+.border-box {
+    background-color: #ffffff !important;
+    border-radius: 4px !important;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.btn-highlight, .btn-normal {
+    border-radius: 4px !important;
+    font-weight: bold !important;
+}
+
+.btn-highlight {
+    background-color: #00a99d !important;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.btn-normal {
+    background-color: #ffffff !important;
+    border: 2px solid #00a99d !important;
+}
+
+.btn-size-l {
+    min-width: 170px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+}
+
+.btn-size-m {
+    min-width: 128px !important;
+    height: 36px !important;
+    font-size: 15px !important;
+}
+
+.bookmark-on {
+    background-color: #cceeeb !important;
+    color: #00a99d !important;
+}
+
+.bookmark-off {
+    background-color: #d4d4d4 !important;
+    color: #f4f4f4 !important;
+}
