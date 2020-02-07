@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import Routes from 'app-router';
 import { store } from 'app-redux';
+import 'assets/scss/_common.scss';
+
 import * as serviceWorker from './serviceWorker';
 
 const App = () => (

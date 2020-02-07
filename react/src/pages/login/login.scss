@@ -1,0 +1,58 @@
+@import "assets/scss/_colors.scss";
+
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(white, #f5f5f5, $mystic);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-container {
+    padding: 60px;
+    background: linear-gradient(#f5f5f5, #f5f5f5, #eef0f2);
+    box-shadow: 0 1px 0px rgb(232, 232, 232), 30px 18px 33px #e7eaee, 1px -26px 54px #fefefe;
+    border-radius: 20px;
+
+    .title-container {
+      margin-bottom: 30px;
+      .title {
+        font-size: 24px;
+      }
+      .description {
+        font-size: 14px;
+      }
+    }
+
+    .login-input {
+      border: none;
+      border-bottom: 1px solid $mystic;
+      border-radius: 0;
+      background: #f5f5f5;
+      font-size: 12px;
+      box-shadow: none !important;
+    }
+
+    .btn-login {
+      color: $shuttleGray;
+      margin-top: 40px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 60px;
+      background: #f5f5f5;
+      box-shadow: 0 1px 0px rgb(232, 232, 232), 30px 18px 33px #e7eaee, 1px -26px 54px #fefefe, 0px 2px 8px #e6e9ee,
+        0px 0 2px #f6f7f9;
+
+      &:hover {
+        background: #f1f1f1;
+      }
+
+      &:active {
+        background: #f1f1f1;
+        transform: translateY(2px);
+      }
+    }
+  }
+}
+
+

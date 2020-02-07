@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Login } from 'pages';
 
-export default class EmptyLayout extends Component {
+export default class EmptyLayout extends PureComponent {
   render() {
     return (
-      <>
-        <h1>Empty Layout</h1>
-        <Switch>
-          <Route exact path="/sign-in" component={Login} />
-        </Switch>
-      </>
+      <Switch>
+        <Route exact path="/sign-in" component={Login} />
+      </Switch>
     );
   }
 }

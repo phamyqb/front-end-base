@@ -6,12 +6,13 @@ export default class MainLayout extends PureComponent {
   render() {
     return (
       <>
-        <h1>Main Layout</h1>
+        {/* Including header if you want here */}
         <Switch>
           <Route exact path="/" render={() => <Redirect to="/dashboard" />} />
           <Route exact path="/dashboard" component={Dashboard} />
           <Route path="/about" component={SensorDetail} />
         </Switch>
+        {/* Including footer if you want here */}
       </>
     );
   }
